@@ -4,7 +4,7 @@
 
 ComfyUI custom node that injects the 4 extra TDM-Unify tensors (step-count time conditioning) for Anima-Lightning models.
 
-**Note:** Only works with converted Anima-Lightning checkpoints. Other models (including base Anima) were not trained with this step-conditioning mechanism and will not work correctly.
+**Note:** Only works with converted Anima-Lightning checkpoints or with LoRAs extracted from it. Other models (including base Anima) were not trained with this step-conditioning mechanism and will not work correctly.
 
 ## Related models
 
